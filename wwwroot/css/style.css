@@ -1,0 +1,25 @@
+﻿/*title*/
+.pageTitle {
+    text-align: left;
+    margin-bottom: 30px
+}
+
+
+/*table settings*/
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+    table th,
+    table td {
+        border-style: solid;
+        border-width: 1px;
+        min-width: 100px;
+    }
+
+#tr_newAlphabet span:last-child,
+#tr_newState span:last-child {
+    margin-left: 15px
+}

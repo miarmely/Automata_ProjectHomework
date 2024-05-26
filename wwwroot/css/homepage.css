@@ -1,4 +1,4 @@
-﻿/* plus icons */
+﻿/*plus icons*/
 .icon_plus {
     width: 50px;
     height: 50px;
@@ -9,20 +9,32 @@
     }
 
 
-/* table settings */
-table {
-    border-style: solid;
-    border-width: 1px;
+/*all colunms and rows except new alphabet and state columns*/
+thead tr:last-child input,
+tbody tr input,
+#tr_saveButton,
+tfoot tr:last-child {
+    text-align: center
 }
 
-    table th,
-    table td {
-        border-style: solid;
-        border-width: 1px;
+
+/*save button*/
+#btn_save {
+    background-color: blue;
+}
+
+    #btn_save:active,
+    #btn_save:focus,
+    #btn_save:hover {
+        background-color: green;
     }
 
-#tr_newAlphabet span:last-child,
-#tr_newState span:last-child {
-    margin-left: 15px
+
+/* columns and first column of rows */
+thead tr:last-child td{
+    background-color: grey
 }
 
+tbody tr td:first-child {
+    background-color: grey
+}

@@ -9,6 +9,11 @@ namespace Automata_ProjectHomework.Controllers
 			return View();
 		}
 
+		public IActionResult Convert()
+		{
+			return View();
+		}
+
 		public IActionResult TableRepresentation()
 		{
 			return View();

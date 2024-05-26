@@ -1,31 +1,41 @@
 ﻿<link rel="stylesheet" href="~/css/homepage.css"/>
 
 
-<table>
-	<thead>
-		<tr id="tr_newAlphabet">	
-			<th colspan="100%">
-				<img id="img_newAlphabet" class="icon_plus" src="/images/plus.png" title="New Alphabet" alt="New Alphabet"/>
-				<span>New Alphabet</span>
-				<span>0</span>
-			</th>
-			
-		</tr>
-		<tr></tr>
-	</thead>
+<div>
+	<h1 class="pageTitle">States And Alphabets</h1>
 
-	<tbody></tbody>
+	<table>
+		<thead>
+			<tr id="tr_newAlphabet">	
+				<th colspan="100%">
+					<img id="img_newAlphabet" class="icon_plus" src="/images/plus.png" title="New Alphabet" alt="New Alphabet"/>
+					<span>New Alphabet</span>
+					<span>0</span>
+				</th>
+			</tr>
+			<tr>
+				<td></td> @*it will be blank*@
+			</tr>
+		</thead>
 
-	<tfoot>
-		<tr id="tr_newState">
-			<th colspan="100%">
-				<img id="img_newState" class="icon_plus" src="/images/plus.png" title="New State" alt="New State"/>
-				<span>New State</span>
-				<span>0</span>
-			</th>
-		</tr>
-	</tfoot>
-</table>
+		<tbody></tbody>
+
+		<tfoot>
+			<tr id="tr_newState">
+				<th colspan="100%">
+					<img id="img_newState" class="icon_plus" src="/images/plus.png" title="New State" alt="New State"/>
+					<span>New State</span>
+					<span>0</span>
+				</th>
+			</tr>
+			<tr id="tr_saveButton">
+				<td colspan="100%">
+					<button id="btn_save" type="button" class="btn btn-danger">Save</button>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
 
 
 <script type="module" src="/js/homepage.js"></script>

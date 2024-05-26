@@ -1,0 +1,14 @@
+﻿table {
+    text-align: center;
+}
+
+/* columns and first column of rows */
+thead td{
+    background-color: grey;
+}
+
+tbody td:first-child {
+    background-color: grey;
+    text-align: right;
+    padding-right: 43px;
+}

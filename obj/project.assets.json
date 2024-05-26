@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__BegumYachting\\Automata_ProjectHomework\\Automata_ProjectHomework.csproj",
+      "projectUniqueName": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__Automata_ProjectHomework\\Automata_ProjectHomework.csproj",
       "projectName": "Automata_ProjectHomework",
-      "projectPath": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__BegumYachting\\Automata_ProjectHomework\\Automata_ProjectHomework.csproj",
+      "projectPath": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__Automata_ProjectHomework\\Automata_ProjectHomework.csproj",
       "packagesPath": "C:\\Users\\Mac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__BegumYachting\\Automata_ProjectHomework\\obj\\",
+      "outputPath": "C:\\Users\\Mac\\Desktop\\SOFTWARE\\1__Software_Languages\\1__C#\\2__API\\1__Projects\\5__Automata_ProjectHomework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mac\\AppData\\Roaming\\NuGet\\NuGet.Config",

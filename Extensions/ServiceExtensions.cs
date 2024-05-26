@@ -9,11 +9,22 @@
 				pattern: "{controller=Automata}/{action=Homepage}/{id?}");
 
 			app.MapControllerRoute(
+				name: "convert",
+				pattern: "convert",
+				defaults: new
+				{
+					Controller = "Automata",
+					Action = "Convert"
+				});
+
+			app.MapControllerRoute(
 				name: "tableRepresentation",
 				pattern: "tableRepresentation",
-				defaults: new { 
-					Controller = "Automata", 
-					Action = "TableRepresentation" });
+				defaults: new
+				{
+					Controller = "Automata",
+					Action = "TableRepresentation"
+				});
 
 			app.MapControllerRoute(
 				name: "graphRepresentation",
